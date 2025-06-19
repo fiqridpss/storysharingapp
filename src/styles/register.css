@@ -1,0 +1,93 @@
+.container__auth__register {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #8EC5FC, #E0C3FC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.container__auth__register__box {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+  
+/* --- Header --- */
+.register__header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px #ccc;
+    font-size: 1.8rem;
+}
+  
+/* --- Form --- */
+.register__form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.register__form__name,
+.register__form__email,
+.register__form__password {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+  
+.register__form__name:focus,
+.register__form__email:focus,
+.register__form__password:focus {
+    border-color: #6c5ce7;
+    outline: none;
+}
+  
+/* --- Button --- */
+.register__form__button {
+    padding: 0.75rem;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+}
+  
+.register__form__button:hover {
+    background-color: #4834d4;
+}
+  
+/* --- Messages --- */
+.register__message {
+    text-align: center;
+    margin-top: 1rem;
+    color: #e74c3c;
+    font-weight: bold;
+}
+  
+/* --- Router Links --- */
+.router__register {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+  
+.router__register__login {
+    text-decoration: none;
+    color: #6c5ce7;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+  
+.router__register__login:hover {
+    color: #4834d4;
+    text-decoration: underline;
+}
