@@ -78,7 +78,7 @@ const DetailView = {
     if (story.lat && story.lon) {
       const map = L.map("map-detail").setView([story.lat, story.lon], 10);
 
-      L.tileLayer('https://api.maptiler.com/maps/streets-v2/256/{z}/{x}/{y}.png?key=g8oK19blBXwfNG5EWWeA', {
+      L.tileLayer('https://api.maptiler.com/maps/streets-v2/256/{z}/{x}/{y}.png?key={APIMAPS}', {
         attribution: '© MapTiler',
         tileSize: 256,
       }).addTo(map);
